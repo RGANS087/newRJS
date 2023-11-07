@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    font-size: 16px;
+    color: white;
+}
+
+header {
+    background: gold;
+    padding: 10px 0;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 10px 20px;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 25px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+section {
+    padding: 100px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+}
+
+.gold {
+    background: gold;
+    color: white;
+}
+
+.white {
+    background: white;
+    color: black;
+}
+
+.black {
+    background: black;
+    color: white;
+    font-size: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (min-width: 768px) {
+    header {
+        height: 80px;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        height: 80px;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 1rem;
+    }
+}
